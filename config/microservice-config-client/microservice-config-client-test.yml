@@ -1,0 +1,8 @@
+# 注意该文件的命名规律，访问方式： http://microservice-config-server:3366/microservice-config-client/test
+# microservice-config-server 是我本地修改hosts文件做的映射 127.0.0.1 microservice-config-server
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/db2?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
