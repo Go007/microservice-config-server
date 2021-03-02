@@ -2,7 +2,7 @@ spring:
   application:
     name: microservice-config-server
   profiles:
-    active: dev, demo, prod, devn
+    active: dev, demo, prod, devn,test
 #    active: native
   cloud:
     config:
@@ -10,7 +10,7 @@ spring:
 #        native:
 #          search-locations: classpath:config
         git:
-          uri: https://gitee.com/hong_007/SpringCloud-Study.git
+          uri: https://github.com/Go007/microservice-config.git
           skip-ssl-validation: true
           username: Go007
           password: htimeis007money
